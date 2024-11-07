@@ -34,6 +34,7 @@ export default function Home() {
         <MyResume/>
         <hr className="border-purple-500"/>
         <MySkills/>
+        <hr className="border-purple-500"/>
       </div>
     </>
   );
