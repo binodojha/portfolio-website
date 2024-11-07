@@ -10,7 +10,7 @@ export default function MyServices() {
     ];
     return (
         <>
-            <div className="myServices py-16 ">
+            <div className="myServices py-12 ">
                 <h2 className="text-center pb-12 font-bold text-4xl"><span className="">My Services</span></h2>
                 <div className="services px-28 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
                     {services.map((service) => (

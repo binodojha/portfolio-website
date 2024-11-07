@@ -5,6 +5,7 @@ import TypeAnimation from "@/components/typing-animation";
 import AboutMe from "@/components/aboutMe"
 import MyServices from "@/components/myServices";
 import MyResume from "@/components/myResume";
+import MySkills from "@/components/skills";
 
 export default function Home() {
   return (
@@ -31,6 +32,8 @@ export default function Home() {
         <MyServices/>
         <hr className="border-purple-500"/>
         <MyResume/>
+        <hr className="border-purple-500"/>
+        <MySkills/>
       </div>
     </>
   );
