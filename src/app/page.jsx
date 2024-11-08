@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 import myImage from "@/images/binod.png"
-import TypeAnimation from "@/components/typing-animation";
+// import TypeAnimation from "@/components/typing-animation";
 import AboutMe from "@/components/aboutMe"
 import MyServices from "@/components/myServices";
 import MyResume from "@/components/myResume";
 import MySkills from "@/components/skills";
+import ContactMe from "@/components/contactMe";
 
 export default function Home() {
   return (
@@ -14,10 +15,10 @@ export default function Home() {
 
         <Navbar />
         <div className="home_container flex  h-full">
-          <div className="home_content border-2 border-red-600 w-1/2">
+          <div className="home_content ">
             {/* <TypeAnimation/> */}
           </div>
-          <div className="home_photo border-2 border-red-600 w-1/2 pb-20">
+          <div className="home_photo ">
             {/* <Image className="opacity-30"
               src={myImage}
               alt="This is my image"
@@ -34,6 +35,8 @@ export default function Home() {
         <MyResume/>
         <hr className="border-purple-500"/>
         <MySkills/>
+        <hr className="border-purple-500"/>
+        <ContactMe/>
         <hr className="border-purple-500"/>
       </div>
     </>

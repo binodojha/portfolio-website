@@ -15,7 +15,7 @@ export default function aboutMe() {
                             </Image>
                         </div>
                     </div>
-                    <div className="aContent_container  w-1/2  text-xl leading-9">
+                    <div className="aContent_container  w-1/2  text-xl leading-9 text-justify">
                         <p>Hello! I’m Binod Ojha, a web developer passionate about creating interactive, user-friendly digital experiences. With expertise in HTML, CSS, JavaScript, React, and Next.js, I specialize in crafting responsive layouts and seamless designs. My projects range from e-commerce platforms to personal apps, all with a focus on functionality and scalability, supported by a solid understanding of MySQL.</p>
                         <p className="mt-10">My approach combines technical expertise with creative problem-solving, resulting in solutions that are not only functional but also visually stunning and user-friendly.</p>
                     </div>
