@@ -12,13 +12,13 @@ export default function MyResume() {
                 <h2 className="text-center pb-12 font-bold text-4xl">Resume</h2>
                 <div className="resumes">
                     <div className="mx-32 text-center text-xl">
-                        <span className="bg-gray-500 rounded-sm p-2">EDUCATION</span>
+                        <span className="bg-purple-800 rounded-sm p-2 font-bold">EDUCATION</span>
                         <div className="content">
                             {resumes.map((resume) => (
                                 <div className="resume " key={resume.id}>
-                                    <div className="rContent py-8 px-4 mx-48 bg-gray-600 my-8 rounded-xl hover:shadow-xl">
+                                    <div className="rContent py-8 px-4 mx-48 bg-purple-800 my-8 rounded-xl hover:shadow-xl">
                                         <div className="flex pb-2">
-                                            <span className=""><FaGraduationCap className="text-3xl text-blue-500"/></span>
+                                            <span className=""><FaGraduationCap className="text-3xl "/></span>
                                             <div className="title font-bold text-2xl ml-2 ">{resume.degree}</div>
                                         </div>
                                         <div className="flex pb-3">

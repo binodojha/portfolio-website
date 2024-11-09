@@ -7,6 +7,7 @@ import MyServices from "@/components/myServices";
 import MyResume from "@/components/myResume";
 import MySkills from "@/components/skills";
 import ContactMe from "@/components/contactMe";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -27,17 +28,18 @@ export default function Home() {
             ></Image> */}
           </div>
         </div>
-        <hr className="border-purple-500"/>
-        <AboutMe/>
-        <hr className="border-purple-500"/>
-        <MyServices/>
-        <hr className="border-purple-500"/>
-        <MyResume/>
-        <hr className="border-purple-500"/>
-        <MySkills/>
-        <hr className="border-purple-500"/>
-        <ContactMe/>
-        <hr className="border-purple-500"/>
+        <hr className="border-purple-500" />
+        <AboutMe />
+        <hr className="border-purple-500" />
+        <MyServices />
+        <hr className="border-purple-500" />
+        <MyResume />
+        <hr className="border-purple-500" />
+        <MySkills />
+        <hr className="border-purple-500" />
+        <ContactMe />
+        <hr className="border-purple-500" />
+        <Footer/>
       </div>
     </>
   );
