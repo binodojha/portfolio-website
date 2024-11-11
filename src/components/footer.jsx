@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"
 import Link from "next/link";
 export default function Footer(){
     return(
@@ -10,6 +10,7 @@ export default function Footer(){
           <div className="text-3xl ml-auto mr-10 flex gap-5 ">
             <Link href="https://www.linkedin.com/in/binodojha30/" target="_blank" ><FaLinkedin className="hover:text-cyan-500"/></Link>
             <Link href="https://github.com/binodojha" target="_blank" ><FaGithub className="hover:text-cyan-500"/></Link>
+            <Link href="mailto:binodojha00@gmail.com" target="_blank" ><FaEnvelope className="hover:text-cyan-500"/></Link>
             </div>
         </footer>
         

@@ -15,19 +15,20 @@ export default function Home() {
       <div className="main bg-gradient-to-br from-gray-900 via-purple-900 to-violet-800">
 
         <Navbar />
-        <div className="home_container flex  h-full">
-          <div className="home_content ">
-            {/* <TypeAnimation/> */}
-          </div>
-          <div className="home_photo ">
-            {/* <Image className="opacity-30"
-              src={myImage}
-              alt="This is my image"
-              width={500}
-              priority
-            ></Image> */}
-          </div>
+        <section className="flex flex-col items-center justify-center min-h-screen">
+        <h1 className="text-5xl font-bold mb-4">Hello, I'm Binod Ojha</h1>
+        <p className="text-2xl font-light max-w-2xl text-center mb-8">
+          Crafting digital experiences that are beautiful, functional, and impactful.
+        </p>
+        <p className="text-lg mb-4 italic">"Building the web, one line of code at a time."</p>
+
+        {/* Taglines */}
+        <div className="text-center space-y-2 mb-8">
+          <p>• Transforming ideas into digital reality •</p>
+          <p>• Frontend Enthusiast | Backend Builder | Tech Explorer •</p>
+          <p>• Empowering businesses through web innovation •</p>
         </div>
+        </section>
         <hr className="border-purple-500" />
         <AboutMe />
         <hr className="border-purple-500" />
