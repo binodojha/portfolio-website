@@ -12,7 +12,7 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <div className="main bg-gradient-to-br from-gray-900 via-purple-900 to-violet-800">
+      <div className="main bg-gradient-to-br from-gray-900 via-purple-900 to-violet-800 scroll-smooth">
 
         <Navbar />
         <section className="flex flex-col items-center justify-center min-h-screen">
