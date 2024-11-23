@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function aboutMe() {
     return (
         <>
-            <div className="about_container text-white py-16">
+            <div className="about_container  py-16">
                 <h2 className="text-center font-bold text-4xl"><span className=""> About Me</span></h2>
                 <div className="about_content pl-20 pr-10 flex space-x-10 pt-12">
                     <div className="flex items-center justify-center  photo_container w-1/2 ">

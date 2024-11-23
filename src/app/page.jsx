@@ -29,17 +29,17 @@ export default function Home() {
           <p>• Empowering businesses through web innovation •</p>
         </div>
         </section>
-        <hr className="border-purple-500" />
+        {/* <hr className="border-purple-500" /> */}
         <AboutMe />
-        <hr className="border-purple-500" />
+        {/* <hr className="border-purple-500" /> */}
         <MyServices />
-        <hr className="border-purple-500" />
+        {/* <hr className="border-purple-500" /> */}
         <MyResume />
-        <hr className="border-purple-500" />
+        {/* <hr className="border-purple-500" /> */}
         <MySkills />
-        <hr className="border-purple-500" />
+        {/* <hr className="border-purple-500" /> */}
         <ContactMe />
-        <hr className="border-purple-500" />
+        {/* <hr className="border-purple-500" /> */}
         <Footer/>
       </div>
     </>

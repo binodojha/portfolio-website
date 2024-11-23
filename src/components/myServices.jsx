@@ -14,7 +14,7 @@ export default function MyServices() {
                 <h2 className="text-center pb-12 font-bold text-4xl"><span className="">My Services</span></h2>
                 <div className="services px-28 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
                     {services.map((service) => (
-                        <div key={service.id} className="service p-6 bg-purple-800 rounded-lg shadow-md text-center hover:bg-gray-900 hover:border-b-4 hover:border-blue-400 hover:-translate-y-2 hover:translate-x-2 transition duration-1000">
+                        <div key={service.id} className="service p-6 bg-purple-800 rounded-lg shadow-md text-center hover:bg-gray-900 hover:border-b-4 hover:border-blue-400 hover:-translate-y-2 hover:translate-x-2 transition duration-1000 ">
                             <div className="icon flex justify-center text-6xl pb-4">{service.icon}</div>
                             <div className="title font-bold text-3xl pt-4">{service.title}</div>
                             <div className="description text-xl text-gray-200 pt-6">{service.description}</div>
